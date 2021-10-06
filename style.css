@@ -1,0 +1,370 @@
+.header1 {
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #ffe2d6;
+}
+.para1 {
+  width: 251px;
+  height: 16px;
+  margin-left: -10px;
+  margin-top: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ff4e00;
+}
+.faq {
+  margin-left: 280px;
+  margin-top: 10px;
+}
+.para2 {
+  width: 112px;
+  height: 14.22px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ff4e00;
+}
+.divider {
+  width: 2px;
+  height: 21.33px;
+  margin-left: 10px;
+  top: 12px;
+  background: #e96125;
+}
+.para3 {
+  width: 37px;
+  height: 14.22px;
+  margin-left: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ff4e00;
+}
+
+.sidebar-menu {
+  list-style: none;
+  margin-left: -30px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel {
+  margin-top: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+label #btn {
+  display: none;
+}
+.menu {
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-weight: normal;
+  font-size: 16px;
+  color: #343434;
+}
+
+#radish {
+  fill: #626262;
+ 
+}
+.menu:hover,
+#radish:hover {
+  color: #e96125;
+  fill: #e96125;
+}
+
+.profile {
+  margin-left: 187px;
+}
+.nav-link {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #000000;
+}
+.nav-link:hover {
+  color: #ea6b32;
+}
+.icon {
+  font-size: 25px;
+  color: white;
+
+  margin-left: 100px;
+  background-color: #e96125;
+  width: 60px;
+  text-align: center;
+  padding-top: 7px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 100%;
+}
+.box1 {
+  background-color: white;
+}
+.checkout-header {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+}
+.location {
+  background-color: #efefef;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #1d1d1d;
+}
+
+.address-details {
+  background-color: #fcfcfc;
+  width: 100%;
+  padding: 10px;
+}
+.house {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #363636;
+}
+.day {
+  background-color: #ffffff;
+  width: 116px;
+  font-size: 12px;
+  height: 31px;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+  font-family: Helvetica;
+  border: 0.5px solid #a5a5a5;
+  border-bottom: none;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.date {
+  height: 35px;
+  border: none;
+  background-color: #ffe4d9;
+  text-transform: none;
+}
+.checkout-total {
+  width: 100%;
+  background: #e96125;
+  border-radius: 30px;
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 70px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 12px;
+  color: #ffffff;
+}
+.checkout {
+  border-bottom: 1px solid #cdcdcd;
+}
+.term-condition {
+  margin-top: 10px;
+  list-style-image: url("image/_.png");
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #949292;
+}
+.cart {
+  width: 335px;
+  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+}
+.cart-header {
+  height: 40px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  background: #e96125;
+  padding: 5px 15px;
+}
+.fruit {
+  width: 61px;
+  height: 42px;
+}
+
+.single-cart {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #404040;
+  border-bottom: 1px solid #dbdbdb;
+}
+.mango {
+  padding-top: 8px;
+  margin-right: 55px;
+}
+.weight50 {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #444444;
+}
+.tk78 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  color: #242424;
+}
+.tk98 {
+  text-decoration: line-through;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.offer-code {
+  width: 100%;
+  height: 49px;
+  background: #eeeeee;
+  margin-top: 110px;
+  padding: 10px;
+  text-align: center;
+}
+.total {
+  background-color: white;
+  height: 80px;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header1 {
+    height: 120px;
+  }
+  .faq {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .profile {
+    margin-left: 0px;
+  }
+  .sidebar-menu {
+    list-style: none;
+    margin-left: -30px;
+  }
+  .menu {
+    text-decoration: none;
+    font-family: Noto Sans;
+    font-weight: normal;
+    font-size: 16px;
+    color: #343434;
+  }
+  .menu:hover {
+    color: #e96125;
+  }
+  .profile {
+    margin-left: 0px;
+  }
+
+  .icon {
+    font-size: 17px;
+    margin-left: 65px;
+    width: 50.5px;
+    text-align: center;
+    padding-top: 9px;
+  }
+
+  .location {
+    background-color: #efefef;
+    height: 33px;
+  }
+  .change {
+    display: none;
+  }
+
+  .date {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .checkout-total {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cart {
+    width: 100%;
+    box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  .fruit {
+    width: 61px;
+    height: 42px;
+  }
+  .mango {
+    padding-top: 8px;
+    margin-right: 15px;
+  }
+  .single-cart {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #404040;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .weight50 {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #444444;
+  }
+  .tk78 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    color: #242424;
+  }
+  .tk98 {
+    text-decoration: line-through;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 14px;
+    color: #a5a5a5;
+  }
+  .offer-code {
+    width: 100%;
+    height: 49px;
+    background: #eeeeee;
+    margin-top: 110px;
+    padding: 10px;
+    text-align: center;
+  }
+  .total {
+    background-color: white;
+    height: 80px;
+  }
+  .sidebar {
+    padding-top: 100px;
+    position: absolute;
+    left: -550px;
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.5s ease;
+  }
+  #check:checked ~ .sidebar {
+    left: 0;
+  }
+  #check {
+    display: none;
+  }
+  label #btn,
+  label #cancel {
+    cursor: pointer;
+  }
+  label #btn {
+    margin-left: 50px;
+  }
+  label #cancel {
+    z-index: 1111;
+  }
+  .nav-button {
+    margin-left: auto;
+  }
+  .search {
+    overflow: hidden;
+  }
+}
