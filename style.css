@@ -70,7 +70,6 @@ label #btn {
 
 #radish {
   fill: #626262;
- 
 }
 .menu:hover,
 #radish:hover {
@@ -229,7 +228,13 @@ label #btn {
   background-color: white;
   height: 80px;
 }
-
+.supp {
+  background-color: #e96125;
+  color: white;
+  padding: 1px 4px;
+  font-size: 10px;
+  border-radius:60px
+}
 @media screen and (max-width: 425px) {
   .container {
     margin: 0px;
@@ -249,20 +254,16 @@ label #btn {
     list-style: none;
     margin-left: -30px;
   }
-  .menu {
-    text-decoration: none;
-    font-family: Noto Sans;
-    font-weight: normal;
-    font-size: 16px;
-    color: #343434;
-  }
+
   .menu:hover {
     color: #e96125;
   }
   .profile {
     margin-left: 0px;
   }
-
+  .supp {
+   display:none;
+  }
   .icon {
     font-size: 17px;
     margin-left: 65px;
